@@ -44,8 +44,7 @@ input.addEventListener('keyup', e => {
      case 's':
         window.location=`https://swd.bits-goa.ac.in/`;
         break;
-    default:
-        window.location=`https://mail.google.com/mail/u/0/?ogbl#inbox`;
-        break;
+    default: 
+        window.location = `https://www.google.com/search?q=${search}`;
     }}
 })
